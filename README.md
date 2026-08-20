@@ -2,17 +2,15 @@
 
 ## Prerequisites
 
-The only prerequisite is having a Python environment available.
+The only prerequisite is having a Python environment available along with an agentic coding tool.
 
 ## Installation
 
-Install the required packages:
+Install the python package `skore-cli`:
 
 ```bash
-pip install 'skore<=0.24.0' skore-cli
+pip install skore-cli
 ```
-
-> **Note:** The client `skore<0.24.0` is currently the last compatible version with the SIA internal skore instance.
 
 ## Running the agent
 
@@ -22,6 +20,12 @@ Once installed, run:
 skore agent --hub-url https://api.skore.dev.heka.ai
 ```
 
-Then follow the instructions displayed.
+If you're a `uv` user, the above command might instead look like
+
+```bash
+uvx --from skore-cli skore agent --hub-url https://api.skore.dev.heka.ai
+```
+
+Then follow the instructions displayed on screen.
 
 Further instructions will be given in time, for the remote name of the `skore` project.
