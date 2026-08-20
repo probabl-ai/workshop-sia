@@ -17,13 +17,13 @@ pip install skore-cli
 Once installed, run:
 
 ```bash
-skore agent --hub-url https://api.skore.dev.heka.ai
+skore agent
 ```
 
 If you're a `uv` user, the above command might instead look like
 
 ```bash
-uvx --from skore-cli skore agent --hub-url https://api.skore.dev.heka.ai
+uvx --from skore-cli skore agent
 ```
 
 Then follow the instructions displayed on screen.
